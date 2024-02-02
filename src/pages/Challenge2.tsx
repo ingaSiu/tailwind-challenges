@@ -1,29 +1,29 @@
 const Challenge2 = () => {
   return (
     <>
-      <div class="bg-sky-900 w-full h-full font-bold text-purple-400 p-10">
-        <ul class="flex flex-col gap-20  py-5 h-full  ">
-          <li class="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer before:border-b">
+      <div className="bg-sky-900 w-full h-full font-bold text-purple-400 p-10">
+        <ul className="flex flex-col gap-20  py-5 h-full  ">
+          <li className="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer before:border-b">
             Home
           </li>
-          <li class="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
+          <li className="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
             About
           </li>
-          <li class="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
+          <li className="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
             Exhibits
           </li>
-          <li class="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
+          <li className="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
             Group Visits
           </li>
-          <li class="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
+          <li className="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer">
             Contact
           </li>
         </ul>
       </div>
 
-      <div class="py-12 pr-12">
-        <div class="flex justify-between ">
-          <div class="hover:scale-125 duration-200">
+      <div className="py-12 pr-12">
+        <div className="flex justify-between ">
+          <div className="hover:scale-125 duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -34,7 +34,7 @@ const Challenge2 = () => {
               <path d="M20.205 4.791a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412L12 21.414l8.207-8.207c2.354-2.353 2.355-6.049-.002-8.416z"></path>
             </svg>
           </div>
-          <button class="hover:scale-125 duration-200">
+          <button className="hover:scale-125 duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -49,72 +49,72 @@ const Challenge2 = () => {
           </button>
         </div>
 
-        <section class="mt-32 grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-12">
-          <div class="flex flex-col gap-10 md:gap-20 max-w-80">
-            <h1 class="text-4xl md:text-5xl font-bold text-sky-900">Come to your senses</h1>
-            <button class=" py-3 px-8 uppercase text-xl border-2 border-sky-900 text-sky-900 hover:bg-sky-900 hover:text-white font-bold">
+        <section className="mt-32 grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-12">
+          <div className="flex flex-col gap-10 md:gap-20 max-w-80">
+            <h1 className="text-4xl md:text-5xl font-bold text-sky-900">Come to your senses</h1>
+            <button className=" py-3 px-8 uppercase text-xl border-2 border-sky-900 text-sky-900 hover:bg-sky-900 hover:text-white font-bold">
               View our prices
             </button>
           </div>
 
-          <div class="md:col-span-2 flex items-center justify-start gap-6 h-full overflow-x-auto">
-            <div class="h-[30rem] w-[25rem] flex-shrink-0">
+          <div className="md:col-span-2 flex items-center justify-start gap-6 h-full overflow-x-auto">
+            <div className="h-[30rem] w-[25rem] flex-shrink-0">
               <img
-                class="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center"
                 src="https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg"
               />
             </div>
-            <div class="h-[30rem] w-[25rem] flex-shrink-0">
+            <div className="h-[30rem] w-[25rem] flex-shrink-0">
               <img
-                class="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center"
                 src="https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg"
               />
             </div>
-            <div class="h-[30rem] w-[25rem] flex-shrink-0">
+            <div className="h-[30rem] w-[25rem] flex-shrink-0">
               <img
-                class="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center"
                 src="https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg"
               />
             </div>
-            <div class="h-[30rem] w-[25rem] flex-shrink-0">
+            <div className="h-[30rem] w-[25rem] flex-shrink-0">
               <img
-                class="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center"
                 src="https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg"
               />
             </div>
-            <div class="h-[30rem] w-[25rem] flex-shrink-0">
+            <div className="h-[30rem] w-[25rem] flex-shrink-0">
               <img
-                class="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center"
                 src="https://images.pexels.com/photos/208984/pexels-photo-208984.jpeg"
               />
             </div>
           </div>
         </section>
 
-        <section class="mt-12 flex gap-10 justify-around flex-col md:flex-row">
-          <div class="space-y-3">
-            <p class="text-sm text-slate-500 max-w-80">
+        <section className="mt-12 flex gap-10 justify-around flex-col md:flex-row">
+          <div className="space-y-3">
+            <p className="text-sm text-slate-500 max-w-80">
               "Not just fun, but really cool expierence. Lovely stuff, exited to show you it all and lots of things to
               see and try!"
             </p>
-            <p class="font-bold ">River of fever, Nida</p>
+            <p className="font-bold ">River of fever, Nida</p>
           </div>
 
-          <div class="lg:w-1/2">
-            <h2 class="text-2xl text-sky-900 font-bold px-5 uppercase mb-[-0.75rem]">Working hours</h2>
-            <div class="flex gap-10 md:gap-28 p-5 bg-gray-300">
+          <div className="lg:w-1/2">
+            <h2 className="text-2xl text-sky-900 font-bold px-5 uppercase mb-[-0.75rem]">Working hours</h2>
+            <div className="flex gap-10 md:gap-28 p-5 bg-gray-300">
               <div>
-                <p class="font-semibold">Monday - Thursday </p>
+                <p className="font-semibold">Monday - Thursday </p>
                 <p>10:00 - 22:00</p>
               </div>
 
               <div>
-                <p class="font-semibold">Friday - Saturday </p>
+                <p className="font-semibold">Friday - Saturday </p>
                 <p>10:00 - 23:00</p>
               </div>
 
               <div>
-                <p class="font-semibold">Sunday </p>
+                <p className="font-semibold">Sunday </p>
                 <p>10:00 - 22:00</p>
               </div>
             </div>
