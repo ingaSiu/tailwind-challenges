@@ -3,34 +3,34 @@ import React from 'react';
 const Challenge4 = () => {
   return (
     <>
-      <div class="max-w-xs text-center mb-10">
-        <h1 class="font-semibold text-indigo-800 text-4xl">Search educational resources</h1>
+      <div className="max-w-xs text-center mb-10">
+        <h1 className="font-semibold text-indigo-800 text-4xl">Search educational resources</h1>
       </div>
 
-      <div class="flex justify-center items-center gap-10">
-        <button class="bg-white text-gray-600 border border-gray-400 cursor-pointer rounded-full p-4 hover:bg-gray-100 ml-3">
+      <div className="flex justify-center items-center gap-10">
+        <button className="bg-white text-gray-600 border border-gray-400 cursor-pointer rounded-full p-4 hover:bg-gray-100 ml-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            className="w-6 h-6"
           >
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
           </svg>
         </button>
 
-        <div class=" flex gap-4 ">
-          <div class="rounded-lg p-6 flex justify-center items-center gap-4 bg-white shadow-xl">
-            <div class="bg-blue-100 rounded-lg p-4 text-2xl">
+        <div className=" flex gap-4 ">
+          <div className="rounded-lg p-6 flex justify-center items-center gap-4 bg-white shadow-xl">
+            <div className="bg-blue-100 rounded-lg p-4 text-2xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-14 h-14"
+                className="w-14 h-14"
               >
                 <path
                   stroke-linecap="round"
@@ -41,9 +41,9 @@ const Challenge4 = () => {
             </div>
 
             <div>
-              <div class="max-w-xs">
-                <h2 class="font-semibold text-lg">Search forum</h2>
-                <p class="text-indigo-800">
+              <div className="max-w-xs">
+                <h2 className="font-semibold text-lg">Search forum</h2>
+                <p className="text-indigo-800">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis cumque cum eos consequatur
                   eaque. Dolorum adipisci ea vitae architecto corrupti accusant
                 </p>
@@ -51,15 +51,15 @@ const Challenge4 = () => {
             </div>
           </div>
 
-          <div class="rounded-lg p-6 flex justify-center items-center gap-4 bg-white shadow-xl">
-            <div class="bg-blue-100 rounded-lg p-4 text-2xl">
+          <div className="rounded-lg p-6 flex justify-center items-center gap-4 bg-white shadow-xl">
+            <div className="bg-blue-100 rounded-lg p-4 text-2xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-14 h-14"
+                className="w-14 h-14"
               >
                 <path
                   stroke-linecap="round"
@@ -70,9 +70,9 @@ const Challenge4 = () => {
             </div>
 
             <div>
-              <div class="max-w-xs">
-                <h2 class="font-semibold text-lg">Search forum</h2>
-                <p class="text-indigo-800">
+              <div className="max-w-xs">
+                <h2 className="font-semibold text-lg">Search forum</h2>
+                <p className="text-indigo-800">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis cumque cum eos consequatur
                   eaque. Dolorum adipisci ea vitae architecto corrupti accusant
                 </p>
@@ -81,21 +81,21 @@ const Challenge4 = () => {
           </div>
         </div>
 
-        <button class="bg-white cursor-pointer text-gray-600 border border-gray-400 rounded-full p-4 hover:bg-gray-100 mr-3">
+        <button className="bg-white cursor-pointer text-gray-600 border border-gray-400 rounded-full p-4 hover:bg-gray-100 mr-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            className="w-6 h-6"
           >
             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
           </svg>
         </button>
       </div>
 
-      <div class="mt-5">
+      <div className="mt-5">
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
