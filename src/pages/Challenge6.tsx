@@ -1,9 +1,9 @@
 const Challenge6 = () => {
   return (
     <>
-      <div class="flex flex-col gap-10 md:flex-row justify-center items-center m-10">
-        <div class="bg-white flex max-w-lg justify-around py-6 px-2 rounded-2xl items-center">
-          <div class="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
+      <div className="flex flex-col gap-10 md:flex-row justify-center items-center m-10">
+        <div className="bg-white flex max-w-lg justify-around py-6 px-2 rounded-2xl items-center">
+          <div className="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,7 @@ const Challenge6 = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.6"
                 stroke="currentColor"
-                class="w-8 h-8"
+                className="w-8 h-8"
               >
                 <path
                   stroke-linecap="round"
@@ -23,7 +23,7 @@ const Challenge6 = () => {
             <span>Home</span>
           </div>
 
-          <div class="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
+          <div className="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const Challenge6 = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-8 h-8"
+                className="w-8 h-8"
               >
                 <path
                   stroke-linecap="round"
@@ -43,7 +43,7 @@ const Challenge6 = () => {
             <span>Cards</span>
           </div>
 
-          <div class="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
+          <div className="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ const Challenge6 = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-8 h-8"
+                className="w-8 h-8"
               >
                 <path
                   stroke-linecap="round"
@@ -63,7 +63,7 @@ const Challenge6 = () => {
             <span>Wallet</span>
           </div>
 
-          <div class="flex flex-col items-center font-semibold rounded-full py-2 px-5 hover:text-white hover:bg-pink-500">
+          <div className="flex flex-col items-center font-semibold rounded-full py-2 px-5 hover:text-white hover:bg-pink-500">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const Challenge6 = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-8 h-8"
+                className="w-8 h-8"
               >
                 <path
                   stroke-linecap="round"
@@ -83,7 +83,7 @@ const Challenge6 = () => {
             <span>Tax</span>
           </div>
 
-          <div class="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
+          <div className="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ const Challenge6 = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-8 h-8"
+                className="w-8 h-8"
               >
                 <path
                   stroke-linecap="round"
@@ -104,17 +104,17 @@ const Challenge6 = () => {
           </div>
         </div>
 
-        <div class="bg-orange-400 p-10 rounded-2xl max-w-md">
-          <div class="flex justify-between">
-            <p class="text-white text-xl font-semibold">Frequent payments</p>
-            <span class="text-white cursor-pointer">
+        <div className="bg-orange-400 p-10 rounded-2xl max-w-md">
+          <div className="flex justify-between">
+            <p className="text-white text-xl font-semibold">Frequent payments</p>
+            <span className="text-white cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-10 h-10"
+                className="w-10 h-10"
               >
                 <path
                   stroke-linecap="round"
@@ -125,10 +125,10 @@ const Challenge6 = () => {
             </span>
           </div>
 
-          <div class="flex gap-4 justify-center ">
+          <div className="flex gap-4 justify-center ">
             <div>
               <img
-                class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                 src="https://cdn.pixabay.com/photo/2018/05/08/17/11/dog-3383461_960_720.jpg"
                 alt="profile img"
               />
@@ -136,7 +136,7 @@ const Challenge6 = () => {
 
             <div>
               <img
-                class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                 src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=2043&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="profile img"
               />
@@ -144,7 +144,7 @@ const Challenge6 = () => {
 
             <div>
               <img
-                class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                 src="https://images.unsplash.com/photo-1580064755419-883acc42900b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="profile img"
               />
@@ -152,7 +152,7 @@ const Challenge6 = () => {
 
             <div>
               <img
-                class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                 src="https://images.unsplash.com/photo-1619476006517-75d535a84652?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="profile img"
               />
@@ -161,45 +161,45 @@ const Challenge6 = () => {
         </div>
       </div>
 
-      <div class="flex flex-col gap-10 md:flex-row md:items-center m-10">
-        <div class="bg-white max-w-lg rounded-xl text-center p-10 text-pink-700 flex flex-col gap-5">
+      <div className="flex flex-col gap-10 md:flex-row md:items-center m-10">
+        <div className="bg-white max-w-lg rounded-xl text-center p-10 text-pink-700 flex flex-col gap-5">
           <div>
-            <p class="text-slate-800">
+            <p className="text-slate-800">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, adipisci culpa. Explicabo ipsam
               molestias iusto neque deserunt aperiam alias molestiae laudantium totam, odit laboriosam est tenetur
               praesentium ratione quibusdam quis?
             </p>
           </div>
 
-          <div class="flex justify-between">
-            <button class="border border-pink-600 rounded-3xl py-2 px-5 hover:bg-pink-100">
+          <div className="flex justify-between">
+            <button className="border border-pink-600 rounded-3xl py-2 px-5 hover:bg-pink-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
               </svg>
             </button>
 
-            <div class="flex justify-center items-center gap-2 text-pink-700">
-              <button class="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
-              <button class="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
-              <button class="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
-              <button class="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
+            <div className="flex justify-center items-center gap-2 text-pink-700">
+              <button className="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
+              <button className="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
+              <button className="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
+              <button className="w-[10px] h-[10px] rounded-[1000px] bg-pink-200 hover:bg-pink-700 hover:border-pink-200 hover:border-2"></button>
             </div>
 
-            <button class="border border-pink-600 rounded-3xl py-2 px-5 hover:bg-pink-100">
+            <button className="border border-pink-600 rounded-3xl py-2 px-5 hover:bg-pink-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
@@ -207,11 +207,11 @@ const Challenge6 = () => {
           </div>
         </div>
 
-        <div class="bg-white rounded-xl max-w-lg ">
-          <div class="flex justify-between">
-            <div class=" rounded-tl-2xl w-full ">
-              <div class="flex justify-end mt-2 text-slate-700 cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10">
+        <div className="bg-white rounded-xl max-w-lg ">
+          <div className="flex justify-between">
+            <div className=" rounded-tl-2xl w-full ">
+              <div className="flex justify-end mt-2 text-slate-700 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
                   <path
                     fill-rule="evenodd"
                     d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
@@ -220,23 +220,23 @@ const Challenge6 = () => {
                 </svg>
               </div>
 
-              <div class="py-6 px-10 flex flex-col justify-center items-center gap-2">
+              <div className="py-6 px-10 flex flex-col justify-center items-center gap-2">
                 <img
-                  class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                  className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                   src="https://images.unsplash.com/photo-1619476006517-75d535a84652?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="profile img"
                 />
-                <p class="font-semibold text-slate-800">Red Pandashian</p>
-                <p class="text-sm text-gray-500">@pandai</p>
-                <button class="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
+                <p className="font-semibold text-slate-800">Red Pandashian</p>
+                <p className="text-sm text-gray-500">@pandai</p>
+                <button className="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
                   Add Contact
                 </button>
               </div>
             </div>
 
-            <div class="  w-full  rounded-tr-2xl">
-              <div class="flex justify-end  text-slate-700 mt-2 cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10">
+            <div className="  w-full  rounded-tr-2xl">
+              <div className="flex justify-end  text-slate-700 mt-2 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
                   <path
                     fill-rule="evenodd"
                     d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
@@ -245,25 +245,25 @@ const Challenge6 = () => {
                 </svg>
               </div>
 
-              <div class="py-6 px-10 flex flex-col justify-center items-center gap-2">
+              <div className="py-6 px-10 flex flex-col justify-center items-center gap-2">
                 <img
-                  class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                  className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                   src="https://images.unsplash.com/photo-1580064755419-883acc42900b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="profile img"
                 />
-                <p class="font-semibold text-slate-800">Akita Kyun</p>
-                <p class="text-sm text-gray-500">@samuraiboy</p>
-                <button class="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
+                <p className="font-semibold text-slate-800">Akita Kyun</p>
+                <p className="text-sm text-gray-500">@samuraiboy</p>
+                <button className="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
                   Add Contact
                 </button>
               </div>
             </div>
           </div>
 
-          <div class="flex">
-            <div class=" w-full  rounded-bl-2xl">
-              <div class="flex justify-end  text-slate-700 mt-2 cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10">
+          <div className="flex">
+            <div className=" w-full  rounded-bl-2xl">
+              <div className="flex justify-end  text-slate-700 mt-2 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
                   <path
                     fill-rule="evenodd"
                     d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
@@ -271,23 +271,23 @@ const Challenge6 = () => {
                   />
                 </svg>
               </div>
-              <div class="py-6 px-10 flex flex-col justify-center items-center gap-2 ">
+              <div className="py-6 px-10 flex flex-col justify-center items-center gap-2 ">
                 <img
-                  class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                  className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                   src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=2043&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="profile img"
                 />
-                <p class="font-semibold text-slate-800">Luna Cato</p>
-                <p class="text-sm text-gray-500">@nyanko</p>
-                <button class="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
+                <p className="font-semibold text-slate-800">Luna Cato</p>
+                <p className="text-sm text-gray-500">@nyanko</p>
+                <button className="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
                   Add Contact
                 </button>
               </div>
             </div>
 
-            <div class="  w-full  rounded-br-2xl ">
-              <div class="flex justify-end  text-slate-700 mt-2 cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10">
+            <div className="  w-full  rounded-br-2xl ">
+              <div className="flex justify-end  text-slate-700 mt-2 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10">
                   <path
                     fill-rule="evenodd"
                     d="M10.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm0 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"
@@ -295,15 +295,15 @@ const Challenge6 = () => {
                   />
                 </svg>
               </div>
-              <div class="py-6 px-10 flex flex-col justify-center items-center gap-2 ">
+              <div className="py-6 px-10 flex flex-col justify-center items-center gap-2 ">
                 <img
-                  class="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
+                  className="rounded-[100%] object-cover w-[70px] h-[70px] border-4 border-pink-600 cursor-pointer"
                   src="https://cdn.pixabay.com/photo/2018/05/08/17/11/dog-3383461_960_720.jpg"
                   alt="profile img"
                 />
-                <p class="font-semibold text-slate-800">Shibe Wan</p>
-                <p class="text-sm text-gray-500">@shibireru</p>
-                <button class="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
+                <p className="font-semibold text-slate-800">Shibe Wan</p>
+                <p className="text-sm text-gray-500">@shibireru</p>
+                <button className="rounded-3xl py-2 px-3 text-white text-sm font-semibold bg-gradient-to-r from-pink-400 to-violet-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400">
                   Add Contact
                 </button>
               </div>
