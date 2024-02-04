@@ -1,20 +1,20 @@
 const Challenge5 = () => {
   return (
     <>
-      <h1 class="font-bold text-indigo-800 text-3xl p-4">Open positions</h1>
+      <h1 className="font-bold text-indigo-800 text-3xl p-4">Open positions</h1>
 
-      <div class="flex flex-col gap-5">
-        <div class="flex flex-col md:flex-row gap-5">
-          <div class="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
-            <div class="flex gap-2 items-center">
-              <div class="bg-gradient-to-r from-violet-400 to-violet-200 p-3 rounded-lg">
+      <div className="flex flex-col gap-5">
+        <div className="flex flex-col md:flex-row gap-5">
+          <div className="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
+            <div className="flex gap-2 items-center">
+              <div className="bg-gradient-to-r from-violet-400 to-violet-200 p-3 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -23,26 +23,26 @@ const Challenge5 = () => {
                   />
                 </svg>
               </div>
-              <h2 class="font-semibold text-xl">Design</h2>
+              <h2 className="font-semibold text-xl">Design</h2>
             </div>
 
             <div>
-              <button class="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
                 4 open positions
               </button>
             </div>
           </div>
 
-          <div class="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
-            <div class="flex gap-2 items-center">
-              <div class=" bg-fuchsia-300 p-3 rounded-lg">
+          <div className="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
+            <div className="flex gap-2 items-center">
+              <div className=" bg-fuchsia-300 p-3 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -51,26 +51,26 @@ const Challenge5 = () => {
                   />
                 </svg>
               </div>
-              <h2 class="font-semibold text-xl">Engineering</h2>
+              <h2 className="font-semibold text-xl">Engineering</h2>
             </div>
 
             <div>
-              <button class="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
                 8 open positions
               </button>
             </div>
           </div>
 
-          <div class="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
-            <div class="flex gap-2 items-center">
-              <div class="bg-gradient-to-r from-blue-300 to-fuchsia-200 p-3 rounded-lg">
+          <div className="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
+            <div className="flex gap-2 items-center">
+              <div className="bg-gradient-to-r from-blue-300 to-fuchsia-200 p-3 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -80,28 +80,28 @@ const Challenge5 = () => {
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
               </div>
-              <h2 class="font-semibold text-xl">Operations</h2>
+              <h2 className="font-semibold text-xl">Operations</h2>
             </div>
 
             <div>
-              <button class="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
                 2 open positions
               </button>
             </div>
           </div>
         </div>
 
-        <div class="flex flex-col md:flex-row gap-5">
-          <div class="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
-            <div class="flex gap-2 items-center">
-              <div class="bg-gradient-to-r from-green-200 to-blue-100 p-3 rounded-lg">
+        <div className="flex flex-col md:flex-row gap-5">
+          <div className="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
+            <div className="flex gap-2 items-center">
+              <div className="bg-gradient-to-r from-green-200 to-blue-100 p-3 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -110,26 +110,26 @@ const Challenge5 = () => {
                   />
                 </svg>
               </div>
-              <h2 class="font-semibold text-xl">People</h2>
+              <h2 className="font-semibold text-xl">People</h2>
             </div>
 
             <div>
-              <button class="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
                 6 open positions
               </button>
             </div>
           </div>
 
-          <div class="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
-            <div class="flex gap-2 items-center">
-              <div class="bg-gradient-to-r from-blue-300 to-orange-100 p-3 rounded-lg">
+          <div className="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
+            <div className="flex gap-2 items-center">
+              <div className="bg-gradient-to-r from-blue-300 to-orange-100 p-3 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -138,26 +138,26 @@ const Challenge5 = () => {
                   />
                 </svg>
               </div>
-              <h2 class="font-semibold text-xl">Sales</h2>
+              <h2 className="font-semibold text-xl">Sales</h2>
             </div>
 
             <div>
-              <button class="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
                 7 open positions
               </button>
             </div>
           </div>
 
-          <div class="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
-            <div class="flex gap-2 items-center">
-              <div class="bg-gradient-to-r from-orange-200 to-violet-200 p-3 rounded-lg">
+          <div className="bg-white rounded-lg flex flex-col items-center gap-5 p-10 shadow-xl">
+            <div className="flex gap-2 items-center">
+              <div className="bg-gradient-to-r from-orange-200 to-violet-200 p-3 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -166,11 +166,11 @@ const Challenge5 = () => {
                   />
                 </svg>
               </div>
-              <h2 class="font-semibold text-xl">University</h2>
+              <h2 className="font-semibold text-xl">University</h2>
             </div>
 
             <div>
-              <button class="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
                 8 open positions
               </button>
             </div>
@@ -178,7 +178,7 @@ const Challenge5 = () => {
         </div>
       </div>
 
-      <div class="text-md text-gray-500 font-semibold text-center max-w-2xl p-2">
+      <div className="text-md text-gray-500 font-semibold text-center max-w-2xl p-2">
         We are proud to an equal Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorut excepturi possimus
         amet, repudiandae officia, commodi id. Perspiciatis impedit itaque dolorum asperiores nihil. Doloribus, eos
         sapiente, incidunt amet culpa tempore rem eum quasi quod voluptatem labore excepturi cupiditate vitae enim
