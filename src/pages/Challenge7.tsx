@@ -1,19 +1,19 @@
 const Challenge7 = () => {
   return (
     <>
-      <div class="bg-white rounded-2xl p-10">
-        <h1 class="text-2xl font-serif font-semibold text-blue-900 mb-5">Payment</h1>
+      <div className="bg-white rounded-2xl p-10">
+        <h1 className="text-2xl font-serif font-semibold text-blue-900 mb-5">Payment</h1>
 
-        <div class="flex items-center gap-4">
-          <button class="w-[30px] h-[30px] rounded-full border border-blue-900 hover:border-8 hover:w-[40px] hover:h-[40px]"></button>
-          <p class="text-blue-900 font-bold text-lg">Card</p>
+        <div className="flex items-center gap-4">
+          <button className="w-[30px] h-[30px] rounded-full border border-blue-900 hover:border-8 hover:w-[40px] hover:h-[40px]"></button>
+          <p className="text-blue-900 font-bold text-lg">Card</p>
         </div>
 
         <div>
-          <p class="text-blue-800 ml-10 mt-4 mb-4">Pay with card</p>
+          <p className="text-blue-800 ml-10 mt-4 mb-4">Pay with card</p>
 
-          <div class="ml-10">
-            <div class="text-blue-800 border border-gray-200 flex gap-2 py-2 px-3 ">
+          <div className="ml-10">
+            <div className="text-blue-800 border border-gray-200 flex gap-2 py-2 px-3 ">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const Challenge7 = () => {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-6 h-6"
                 >
                   <path
                     stroke-linecap="round"
@@ -30,11 +30,11 @@ const Challenge7 = () => {
                   />
                 </svg>
               </span>
-              <input type="text" placeholder="Card number" class="outline-none placeholder:text-blue-800" />
+              <input type="text" placeholder="Card number" className="outline-none placeholder:text-blue-800" />
             </div>
 
-            <div class="flex ">
-              <div class="text-blue-800 border border-gray-200 flex gap-2 py-2 px-3">
+            <div className="flex ">
+              <div className="text-blue-800 border border-gray-200 flex gap-2 py-2 px-3">
                 <i>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ const Challenge7 = () => {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                   >
                     <path
                       stroke-linecap="round"
@@ -51,10 +51,10 @@ const Challenge7 = () => {
                     />
                   </svg>
                 </i>
-                <input type="text" placeholder="mm/dd" class="outline-none placeholder:text-blue-800" />
+                <input type="text" placeholder="mm/dd" className="outline-none placeholder:text-blue-800" />
               </div>
 
-              <div class="text-blue-800 flex border border-gray-200 gap-2 py-2 px-2">
+              <div className="text-blue-800 flex border border-gray-200 gap-2 py-2 px-2">
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const Challenge7 = () => {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-6 h-6 "
+                    className="w-6 h-6 "
                   >
                     <path
                       stroke-linecap="round"
@@ -71,14 +71,14 @@ const Challenge7 = () => {
                     />
                   </svg>
                 </span>
-                <input type="text" placeholder="CVC" class="outline-none placeholder:text-blue-800" />
+                <input type="text" placeholder="CVC" className="outline-none placeholder:text-blue-800" />
               </div>
             </div>
 
-            <div class="text-blue-800 flex  gap-2 items-center mt-4 mb-8">
+            <div className="text-blue-800 flex  gap-2 items-center mt-4 mb-8">
               <input
                 type="checkbox"
-                class="appearance-none w-[25px] h-[25px] border-2 border-slate-400 rounded-md cursor-pointer"
+                className="appearance-none w-[25px] h-[25px] border-2 border-slate-400 rounded-md cursor-pointer"
               />
               <p>Remember my card</p>
             </div>
@@ -86,16 +86,18 @@ const Challenge7 = () => {
         </div>
 
         <div>
-          <div class="flex items-center gap-4 mb-4">
-            <button class="w-[30px] h-[30px] rounded-full border border-blue-900 hover:border-8 hover:w-[40px] hover:h-[40px]"></button>
-            <p class="text-blue-900 font-bold text-lg">Get first. Pay later.</p>
+          <div className="flex items-center gap-4 mb-4">
+            <button className="w-[30px] h-[30px] rounded-full border border-blue-900 hover:border-8 hover:w-[40px] hover:h-[40px]"></button>
+            <p className="text-blue-900 font-bold text-lg">Get first. Pay later.</p>
           </div>
 
-          <p class="text-blue-800 ml-12 mb-10">Pay within 30 days</p>
+          <p className="text-blue-800 ml-12 mb-10">Pay within 30 days</p>
         </div>
 
         <div>
-          <button class="uppercase text-white bg-blue-800 py-6 w-full hover:bg-blue-700 rounded-md">Continue</button>
+          <button className="uppercase text-white bg-blue-800 py-6 w-full hover:bg-blue-700 rounded-md">
+            Continue
+          </button>
         </div>
       </div>
     </>
