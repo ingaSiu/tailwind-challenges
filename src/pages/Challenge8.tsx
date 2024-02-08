@@ -1,6 +1,6 @@
 const Challenge8 = () => {
   return (
-    <div>
+    <div className="bg-amber-50 flex flex-col md:flex-row gap-10 justify-center items-center min-h-screen">
       <div className="flex flex-col gap-2 justify-end mt-5 rounded-sm">
         <div className="flex justify-end">
           <div className="bg-white cursor-pointer w-[50px] h-[50px] flex items-center justify-center">
