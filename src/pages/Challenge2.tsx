@@ -1,6 +1,6 @@
 const Challenge2 = () => {
   return (
-    <>
+    <div className="bg-gray-200 grid grid-cols-[3rem_1fr] md:grid-cols-[6rem_1fr] min-h-screen gap-12 md:gap-16 box-border">
       <div className="bg-sky-900 w-full h-full font-bold text-purple-400 p-10">
         <ul className="flex flex-col gap-20  py-5 h-full  ">
           <li className="hover:text-red-300 rotate-[270deg] duration-300 py-5 w-full flex items-center justify-center cursor-pointer before:border-b">
@@ -121,7 +121,7 @@ const Challenge2 = () => {
           </div>
         </section>
       </div>
-    </>
+    </div>
   );
 };
 
