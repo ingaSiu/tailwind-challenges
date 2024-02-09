@@ -1,4 +1,4 @@
 export type Route = {
-  path: '/';
+  path: '/' | 'challenge1';
   Component: () => JSX.Element;
 };
