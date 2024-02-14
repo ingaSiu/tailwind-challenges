@@ -2,7 +2,7 @@ import React from 'react';
 
 const Challenge4 = () => {
   return (
-    <>
+    <div className="bg-gray-100 flex flex-col justify-center items-center min-h-screen overflow-x-auto">
       <div className="max-w-xs text-center mb-10">
         <h1 className="font-semibold text-indigo-800 text-4xl">Search educational resources</h1>
       </div>
@@ -133,7 +133,7 @@ const Challenge4 = () => {
           </svg>
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
