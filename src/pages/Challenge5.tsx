@@ -1,6 +1,6 @@
 const Challenge5 = () => {
   return (
-    <>
+    <div className="bg-violet-100 flex flex-col justify-center items-center min-h-screen gap-10">
       <h1 className="font-bold text-indigo-800 text-3xl p-4">Open positions</h1>
 
       <div className="flex flex-col gap-5">
@@ -184,7 +184,7 @@ const Challenge5 = () => {
         sapiente, incidunt amet culpa tempore rem eum quasi quod voluptatem labore excepturi cupiditate vitae enim
         exercitationem debitis. Iusto, deserunt adipisci!
       </div>
-    </>
+    </div>
   );
 };
 
