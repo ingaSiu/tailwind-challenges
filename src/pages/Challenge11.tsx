@@ -2,7 +2,7 @@ import React from 'react';
 
 const Challenge11 = () => {
   return (
-    <div>
+    <div className="bg-indigo-100 flex justify-center items-center min-h-screen">
       {' '}
       <div className="bg-white py-14 pl-10 pr-5 rounded-3xl">
         <div className="flex gap-14 items-center ">
