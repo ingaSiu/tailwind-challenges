@@ -1,6 +1,6 @@
 const Challenge10 = () => {
   return (
-    <div>
+    <div className="bg-blue-50 flex justify-center items-center min-h-screen">
       {' '}
       <div className=" p-16 rounded-xl bg-white flex flex-col justify-center items-center gap-5 text-indigo-900 font-bold">
         <div className="border border-indigo-400 rounded-full w-[100px] h-[100px] flex flex-col items-center justify-center">
