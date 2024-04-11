@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Challenge11 = () => {
   return (
     <div className="bg-indigo-100 flex justify-center items-center min-h-screen">
@@ -36,7 +34,7 @@ const Challenge11 = () => {
           <div className="flex gap-2 text-indigo-900 font-semibold">
             <input id="eggs" className="peer sr-only" type="checkbox" name="groceries" />
             <label
-              for="eggs"
+              htmlFor="eggs"
               className="size-6 rounded-full border border-indigo-900 shrink-0 flex justify-center items-center peer-checked:[&_span]:visible peer-checked:border-indigo-900/70"
             >
               <span className="invisible text-indigo-900/70">✓</span>
@@ -47,7 +45,7 @@ const Challenge11 = () => {
           <div className="flex gap-2  text-indigo-900 font-semibold">
             <input id="tomatoes" className="peer sr-only" type="checkbox" name="groceries" />
             <label
-              for="tomatoes"
+              htmlFor="tomatoes"
               className="size-6 rounded-full border border-indigo-900 shrink-0 flex justify-center items-center peer-checked:[&_span]:visible peer-checked:border-indigo-900/70"
             >
               <span className="invisible text-indigo-900/70">✓</span>
@@ -58,7 +56,7 @@ const Challenge11 = () => {
           <div className="flex gap-2  text-indigo-900 font-semibold mb-4">
             <input id="avocado" className="peer sr-only" type="checkbox" name="groceries" />
             <label
-              for="avocado"
+              htmlFor="avocado"
               className="size-6 rounded-full border border-indigo-900 shrink-0 flex justify-center items-center peer-checked:[&_span]:visible peer-checked:border-indigo-900/70"
             >
               <span className="invisible text-indigo-900/70">✓</span>
@@ -73,7 +71,7 @@ const Challenge11 = () => {
               <div className="flex gap-2  text-indigo-900 font-semibold">
                 <input id="egg_noodles" className="peer sr-only" type="checkbox" name="groceries" checked />
                 <label
-                  for="egg_noodles"
+                  htmlFor="egg_noodles"
                   className="size-6 rounded-full border border-indigo-900 shrink-0 flex justify-center items-center peer-checked:[&_span]:visible peer-checked:border-indigo-900/70"
                 >
                   <span className="invisible text-indigo-900/70">✓</span>
@@ -84,7 +82,7 @@ const Challenge11 = () => {
               <div className="flex gap-2 items-center text-indigo-900 font-semibold">
                 <input id="scampi" className="peer sr-only" type="checkbox" name="groceries" checked />
                 <label
-                  for="scampi"
+                  htmlFor="scampi"
                   className="size-6 rounded-full border border-indigo-900 shrink-0 flex justify-center items-center peer-checked:[&_span]:visible peer-checked:border-indigo-900/70"
                 >
                   <span className="invisible text-indigo-900/70">✓</span>
@@ -95,7 +93,7 @@ const Challenge11 = () => {
               <div className="flex gap-2 items-center text-indigo-900 font-semibold">
                 <input id="orange_juice" className="peer sr-only" type="checkbox" name="groceries" checked />
                 <label
-                  for="orange_juice"
+                  htmlFor="orange_juice"
                   className="size-6 rounded-full border border-indigo-900 shrink-0 flex justify-center items-center peer-checked:[&_span]:visible peer-checked:border-indigo-900/70"
                 >
                   <span className="invisible text-indigo-900/70">✓</span>
@@ -106,7 +104,7 @@ const Challenge11 = () => {
               <div className="flex gap-2 items-center text-indigo-900 font-semibold">
                 <input id="apples" className="peer sr-only" type="checkbox" name="groceries" checked />
                 <label
-                  for="apples"
+                  htmlFor="apples"
                   className="size-6 rounded-full border border-indigo-900 shrink-0 flex justify-center items-center peer-checked:[&_span]:visible peer-checked:border-indigo-900/70"
                 >
                   <span className="invisible text-indigo-900/70">✓</span>
