@@ -1,6 +1,6 @@
 const Challenge7 = () => {
   return (
-    <>
+    <div className="bg-violet-200 flex justify-center items-center min-h-screen">
       <div className="bg-white rounded-2xl p-10">
         <h1 className="text-2xl font-serif font-semibold text-blue-900 mb-5">Payment</h1>
 
@@ -100,7 +100,7 @@ const Challenge7 = () => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
