@@ -1,6 +1,5 @@
 import Button from './Button';
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
 
 type CardProps = {
   image: string;
@@ -10,8 +9,6 @@ type CardProps = {
 };
 
 const ChallengeCard = ({ image, title, path, url }: CardProps) => {
-  const navigate = useNavigate();
-
   return (
     <div className="border rounded-xl shadow-lg overflow-hidden ">
       <div className="relative w-full h-auto aspect-video">
@@ -27,7 +24,10 @@ const ChallengeCard = ({ image, title, path, url }: CardProps) => {
         </h1>
 
         <div className="flex gap-8 justify-center mt-4">
-          <Button onClick={() => navigate(path)}>View Task</Button>
+          <Link to={path} target="_blank">
+            <Button>View Task</Button>
+          </Link>
+
           <Link to={url} target="_blank">
             <Button>iCodeThis challenge</Button>
           </Link>
