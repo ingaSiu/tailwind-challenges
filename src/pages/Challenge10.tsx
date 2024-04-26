@@ -32,18 +32,21 @@ const Challenge10 = () => {
         </div>
 
         <div className="text-center font-semibold">
-          <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-none hover:bg-indigo-900 hover:text-white">
-            10
-          </button>
-          <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-none hover:bg-indigo-900 hover:text-white">
-            25
-          </button>
-          <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-none hover:bg-indigo-900 hover:text-white">
-            50
-          </button>
-          <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-none hover:bg-indigo-900 hover:text-white">
-            100
-          </button>
+          <div className="flex gap-2">
+            <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-indigo-900 hover:bg-indigo-900 hover:text-white hover:transition-all">
+              10
+            </button>
+            <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-indigo-900 hover:bg-indigo-900 hover:text-white">
+              25
+            </button>
+            <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-indigo-900 hover:bg-indigo-900 hover:text-white">
+              50
+            </button>
+            <button className="border border-indigo-400  text-xl py-2 px-4 rounded-2xl text-center hover:border-indigo-900 hover:bg-indigo-900 hover:text-white">
+              100
+            </button>
+          </div>
+
           <p className="mt-2 mb-5">Downloads per month</p>
         </div>
 
