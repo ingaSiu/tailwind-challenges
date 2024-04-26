@@ -10,11 +10,11 @@ const Challenge1 = () => {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M15 6l-6 6l6 6" />
@@ -29,11 +29,11 @@ const Challenge1 = () => {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
@@ -53,11 +53,11 @@ const Challenge1 = () => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
@@ -90,11 +90,11 @@ const Challenge1 = () => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
@@ -128,11 +128,11 @@ const Challenge1 = () => {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
@@ -148,10 +148,10 @@ const Challenge1 = () => {
                 <p className="text-xs">All Passengers Checked-in</p>
 
                 <div className="flex gap-2">
-                  <div className="text-sm px-3 py-2 rounded-full bg-emerald-100 hover:bg-emerald-200 w-fit mt-2">
+                  <div className="text-sm w-[50px] h-[50px] flex  justify-center items-center rounded-full bg-emerald-100 hover:bg-emerald-200  mt-2">
                     AG
                   </div>
-                  <div className="text-sm px-3 py-2 rounded-full bg-emerald-100 hover:bg-emerald-200 w-fit mt-2">
+                  <div className="text-sm w-[50px] h-[50px] flex  justify-center items-center rounded-full bg-emerald-100 hover:bg-emerald-200  mt-2">
                     II
                   </div>
                 </div>
