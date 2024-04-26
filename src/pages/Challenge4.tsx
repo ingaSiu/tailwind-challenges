@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Challenge4 = () => {
   return (
     <div className="bg-gray-100 flex flex-col justify-center items-center min-h-screen overflow-x-auto">
@@ -13,11 +11,11 @@ const Challenge4 = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className="w-6 h-6"
           >
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
           </svg>
         </button>
 
@@ -28,13 +26,13 @@ const Challenge4 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="w-14 h-14"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
                 />
               </svg>
@@ -57,13 +55,13 @@ const Challenge4 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="w-14 h-14"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
                 />
               </svg>
@@ -86,11 +84,11 @@ const Challenge4 = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             className="w-6 h-6"
           >
-            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
           </svg>
         </button>
       </div>
@@ -102,7 +100,7 @@ const Challenge4 = () => {
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"
+            style={{ fill: 'rgba(0, 0, 0, 1)', transform: '', msFilter: '' }}
           >
             <path d="M12 5c-3.859 0-7 3.141-7 7s3.141 7 7 7 7-3.141 7-7-3.141-7-7-7zm0 12c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path>
             <path d="M12 9c-1.627 0-3 1.373-3 3s1.373 3 3 3 3-1.373 3-3-1.373-3-3-3z"></path>
@@ -115,7 +113,7 @@ const Challenge4 = () => {
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"
+            style={{ fill: 'rgba(0, 0, 0, 1)', transform: '', msFilter: '' }}
           >
             <path d="M5 12c0 3.859 3.14 7 7 7 3.859 0 7-3.141 7-7s-3.141-7-7-7c-3.86 0-7 3.141-7 7zm12 0c0 2.757-2.243 5-5 5s-5-2.243-5-5 2.243-5 5-5 5 2.243 5 5z"></path>
           </svg>
@@ -127,7 +125,7 @@ const Challenge4 = () => {
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"
+            style={{ fill: 'rgba(0, 0, 0, 1)', transform: '', msFilter: '' }}
           >
             <path d="M5 12c0 3.859 3.14 7 7 7 3.859 0 7-3.141 7-7s-3.141-7-7-7c-3.86 0-7 3.141-7 7zm12 0c0 2.757-2.243 5-5 5s-5-2.243-5-5 2.243-5 5-5 5 2.243 5 5z"></path>
           </svg>
