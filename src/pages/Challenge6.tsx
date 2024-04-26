@@ -1,6 +1,6 @@
 const Challenge6 = () => {
   return (
-    <>
+    <div className="bg-gradient-to-r from-pink-400 to-violet-400 hover:bg-gradient-to-r hover:from-pink-500 hover:to-violet-400  min-h-screen flex flex-col items-center justify-center gap-2">
       <div className="flex flex-col gap-10 md:flex-row justify-center items-center m-10">
         <div className="bg-white flex max-w-lg justify-around py-6 px-2 rounded-2xl items-center">
           <div className="flex flex-col items-center font-semibold rounded-full py-2 px-3 hover:text-white hover:bg-pink-500">
@@ -311,7 +311,7 @@ const Challenge6 = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
