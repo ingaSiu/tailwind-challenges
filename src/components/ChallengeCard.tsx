@@ -10,7 +10,7 @@ type CardProps = {
 
 const ChallengeCard = ({ image, title, path, url }: CardProps) => {
   return (
-    <div className="border rounded-xl shadow-lg overflow-hidden ">
+    <div className="border rounded-xl shadow-lg overflow-hidden max-w-[450px]">
       <div className="relative w-full h-auto aspect-video">
         <img className="w-full" src={image} alt="project" />
       </div>
