@@ -1,6 +1,6 @@
 const Challenge12 = () => {
   return (
-    <div>
+    <div className="bg-violet-50  min-h-screen relative flex items-center justify-center">
       <div className="z-[9999] relative">
         <div className="flex flex-col gap-10 z-50 relative -mt-20">
           <div className="py-20 px-16 rounded-2xl bg-white shadow-2xl mb-[150px] ml-[250px] mt-20 z-10">
@@ -34,7 +34,7 @@ const Challenge12 = () => {
             <p className="text-violet-700 text-sm mb-4">Link updates may take up to 5 minutes to propagate</p>
 
             <div className="text-violet-600 flex gap-2 items-center ">
-              <select type="text" className="w-1/4 py-3 px-2 bg-inherit rounded-xl border border-slate-400 mb-2">
+              <select className="w-1/4 py-3 px-2 bg-inherit rounded-xl border border-slate-400 mb-2">
                 <option value="">https://</option>
               </select>
               <input
