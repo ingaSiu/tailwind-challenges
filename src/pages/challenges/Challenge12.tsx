@@ -1,53 +1,55 @@
 const Challenge12 = () => {
   return (
     <div>
-      <div class="z-[9999] relative">
-        <div class="flex flex-col gap-10 z-50 relative -mt-20">
-          <div class="py-20 px-16 rounded-2xl bg-white shadow-2xl mb-[150px] ml-[250px] mt-20 z-10">
-            <h1 class="text-violet-600 font-semibold font-serif text-2xl">Create a link</h1>
-            <p class="text-violet-700 mb-4">Promote any brand with a simple link</p>
+      <div className="z-[9999] relative">
+        <div className="flex flex-col gap-10 z-50 relative -mt-20">
+          <div className="py-20 px-16 rounded-2xl bg-white shadow-2xl mb-[150px] ml-[250px] mt-20 z-10">
+            <h1 className="text-violet-600 font-semibold font-serif text-2xl">Create a link</h1>
+            <p className="text-violet-700 mb-4">Promote any brand with a simple link</p>
 
-            <div class="text-violet-600">
-              <select type="text" class="w-full py-3 px-2 bg-inherit rounded-xl border border-slate-400 mb-2">
-                <option value="" class="bg-inherit">
+            <div className="text-violet-600">
+              <select className="w-full py-3 px-2 bg-inherit rounded-xl border border-slate-400 mb-2">
+                <option value="" className="bg-inherit">
                   Premium Themes
                 </option>
               </select>
               <input
                 type="text"
                 placeholder="Enter a website Url"
-                class="mb-3 placeholder:text-violet-400 outline-none w-full py-3 px-2 bg-inherit rounded-xl border border-slate-400"
+                className="mb-3 placeholder:text-violet-400 outline-none w-full py-3 px-2 bg-inherit rounded-xl border border-slate-400"
               />
             </div>
 
-            <div class="flex gap-2">
-              <button class="py-3 px-4 w-full rounded-xl bg-violet-600 text-white hover:bg-violet-500">Create</button>
-              <button class="py-3 px-4 w-full rounded-xl text-violet-600 hover:bg-violet-100">Advanced</button>
+            <div className="flex gap-2">
+              <button className="py-3 px-4 w-full rounded-xl bg-violet-600 text-white hover:bg-violet-500">
+                Create
+              </button>
+              <button className="py-3 px-4 w-full rounded-xl text-violet-600 hover:bg-violet-100">Advanced</button>
             </div>
           </div>
 
-          <div class="py-20 px-16 rounded-2xl bg-white shadow-2xl -mt-[240px] mr-[200px] z-0">
-            <h1 class="text-violet-600 font-semibold  text-2xl mb-3">Promote</h1>
-            <p class="text-violet-700 ">Use this link to promote.</p>
-            <p class="text-violet-700 text-sm mb-4">Link updates may take up to 5 minutes to propagate</p>
+          <div className="py-20 px-16 rounded-2xl bg-white shadow-2xl -mt-[240px] mr-[200px] z-0">
+            <h1 className="text-violet-600 font-semibold  text-2xl mb-3">Promote</h1>
+            <p className="text-violet-700 ">Use this link to promote.</p>
+            <p className="text-violet-700 text-sm mb-4">Link updates may take up to 5 minutes to propagate</p>
 
-            <div class="text-violet-600 flex gap-2 items-center ">
-              <select type="text" class="w-1/4 py-3 px-2 bg-inherit rounded-xl border border-slate-400 mb-2">
+            <div className="text-violet-600 flex gap-2 items-center ">
+              <select type="text" className="w-1/4 py-3 px-2 bg-inherit rounded-xl border border-slate-400 mb-2">
                 <option value="">https://</option>
               </select>
               <input
                 type="text"
                 placeholder="Premium themes"
-                class="mb-4 placeholder:text-violet-600 outline-none w-3/4 py-3 px-2 bg-inherit rounded-xl border border-slate-400"
+                className="mb-4 placeholder:text-violet-600 outline-none w-3/4 py-3 px-2 bg-inherit rounded-xl border border-slate-400"
               />
             </div>
 
             <div>
-              <p class="text-violet-600">Share</p>
-              <button class="w-[40px] h-[40px] bg-blue-500 text-white p-2 rounded-lg hover:scale-125 duration-200">
+              <p className="text-violet-600">Share</p>
+              <button className="w-[40px] h-[40px] bg-blue-500 text-white p-2 rounded-lg hover:scale-125 duration-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-pacman "
+                  className="icon icon-tabler icon-tabler-pacman "
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -63,10 +65,10 @@ const Challenge12 = () => {
                 </svg>
               </button>
 
-              <button class="w-[40px] h-[40px]  bg-blue-300 text-white p-2 rounded-lg hover:scale-125 duration-200">
+              <button className="w-[40px] h-[40px]  bg-blue-300 text-white p-2 rounded-lg hover:scale-125 duration-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-cat"
+                  className="icon icon-tabler icon-tabler-cat"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -89,10 +91,10 @@ const Challenge12 = () => {
           </div>
         </div>
 
-        <div class="z-[-9999] absolute left-0 right-0 top-0 bottom-0">
-          <div class="border-4 border-violet-400 w-[800px] h-[800px] rounded-full flex justify-center items-center -z-30">
-            <div class="border-[16px] border-violet-400 w-[600px] h-[600px] rounded-full flex justify-center items-center -z-40 ">
-              <div class=" bg-violet-400 w-[500px] h-[500px] rounded-full -z-40"></div>
+        <div className="z-[-9999] absolute left-0 right-0 top-0 bottom-0">
+          <div className="border-4 border-violet-400 w-[800px] h-[800px] rounded-full flex justify-center items-center -z-30">
+            <div className="border-[16px] border-violet-400 w-[600px] h-[600px] rounded-full flex justify-center items-center -z-40 ">
+              <div className=" bg-violet-400 w-[500px] h-[500px] rounded-full -z-40"></div>
             </div>
           </div>
         </div>
