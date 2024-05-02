@@ -8,13 +8,13 @@ const Challenge8 = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
               className="w-10 h-10"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
               />
             </svg>
@@ -39,27 +39,27 @@ const Challenge8 = () => {
               type="radio"
               className="appearance-none rounded-full w-[16px] h-[16px] border border-amber-800 checked:outline-2 checked:outline checked:outline-amber-600 checked:bg-orange-600"
             />
-            <label for="" className="text-amber-800">
+            <label htmlFor="" className="text-amber-800">
               Display Contact Button
             </label>
           </div>
 
-          <div className="mb-3">
+          <div className="flex items-center gap-2 mb-3">
             <input
               type="radio"
               className="appearance-none rounded-full w-[16px] h-[16px] border border-amber-800 checked:outline-2 checked:outline checked:outline-amber-600 checked:bg-orange-600"
             />
-            <label for="" className="text-amber-800">
+            <label htmlFor="" className="text-amber-800">
               Hide email address
             </label>
           </div>
 
-          <div>
+          <div className="flex items-center gap-2 mb-3">
             <input
               type="radio"
               className="appearance-none rounded-full w-[16px] h-[16px] border border-amber-800 checked:outline-2 checked:outline checked:outline-amber-600 checked:bg-orange-600"
             />
-            <label for="" className="text-amber-800">
+            <label htmlFor="" className="text-amber-800">
               Display Publish button
             </label>
           </div>
@@ -79,7 +79,7 @@ const Challenge8 = () => {
             type="checkbox"
             className="appearance-none w-[20px] h-[20px]  border border-slate-400 rounded-sm checked:bg-orange-900 checked:outline-double checked:outline-amber-500 checked:border-none checked:outline-4"
           />
-          <label for="" className="text-amber-800">
+          <label htmlFor="" className="text-amber-800">
             Turn on in-app notifications.
           </label>
         </div>
@@ -89,7 +89,7 @@ const Challenge8 = () => {
             type="checkbox"
             className="appearance-none w-[20px] h-[20px]  border border-slate-400 rounded-sm checked:bg-orange-900 checked:outline-double checked:outline-amber-500 checked:border-none checked:outline-4"
           />
-          <label for="" className="text-amber-800">
+          <label htmlFor="" className="text-amber-800">
             Receive weekly newsletters and other offers.
           </label>
         </div>
