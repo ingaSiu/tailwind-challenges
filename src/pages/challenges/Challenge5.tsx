@@ -178,11 +178,10 @@ const Challenge5 = () => {
         </div>
       </div>
 
-      <div className="text-md text-gray-500 font-semibold text-center max-w-2xl p-2">
-        We are proud to an equal Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorut excepturi possimus
-        amet, repudiandae officia, commodi id. Perspiciatis impedit itaque dolorum asperiores nihil. Doloribus, eos
-        sapiente, incidunt amet culpa tempore rem eum quasi quod voluptatem labore excepturi cupiditate vitae enim
-        exercitationem debitis. Iusto, deserunt adipisci!
+      <div className="text-sm text-gray-600 font-semibold text-center max-w-2xl p-2">
+        We are proud to an equal opportunity employer taht values diversity. We do not discriminate on the basis of
+        racde, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status or
+        disability status.
       </div>
     </div>
   );
