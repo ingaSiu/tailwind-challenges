@@ -27,7 +27,7 @@ const Challenge5 = () => {
             </div>
 
             <div>
-              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white hover:border-indigo-900">
                 4 open positions
               </button>
             </div>
@@ -55,7 +55,7 @@ const Challenge5 = () => {
             </div>
 
             <div>
-              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white hover:border-indigo-900">
                 8 open positions
               </button>
             </div>
@@ -84,7 +84,7 @@ const Challenge5 = () => {
             </div>
 
             <div>
-              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white hover:border-indigo-900">
                 2 open positions
               </button>
             </div>
@@ -114,7 +114,7 @@ const Challenge5 = () => {
             </div>
 
             <div>
-              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white hover:border-indigo-900">
                 6 open positions
               </button>
             </div>
@@ -142,7 +142,7 @@ const Challenge5 = () => {
             </div>
 
             <div>
-              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white hover:border-indigo-900">
                 7 open positions
               </button>
             </div>
@@ -170,7 +170,7 @@ const Challenge5 = () => {
             </div>
 
             <div>
-              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white">
+              <button className="border border-gray-400 px-6 py-2 rounded-lg text-gray-800 font-semibold hover:bg-indigo-900 hover:text-white hover:border-indigo-900">
                 8 open positions
               </button>
             </div>
