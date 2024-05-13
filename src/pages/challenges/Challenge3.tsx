@@ -65,7 +65,8 @@ const Challenge3 = () => {
           </form>
 
           <a className="text-sm text-blue-600 font-bold mb-4 md:mb-0" href="#">
-            Can't log in? &#x2022; Sign up for an account
+            <span className="hover:text-blue-900 hover:underline">Can't log in?</span> &#x2022;{' '}
+            <span className="hover:text-blue-900 hover:underline">Sign up for an account</span>
           </a>
         </div>
       </div>
