@@ -59,4 +59,16 @@ export const data = [
     path: 'challenge10',
     url: 'https://icodethis.com/_next/image?url=%2Fimages%2Fprojects%2Fsubscription_plan.png&w=1920&q=75',
   },
+  {
+    title: 'To Do 2',
+    image: 'https://i.imgur.com/g8vUPGW.png',
+    path: 'challenge11',
+    url: 'https://icodethis.com/_next/image?url=%2Fimages%2Fprojects%2Fto_do_2.png&w=1920&q=75',
+  },
+  {
+    title: 'Promote Link',
+    image: 'https://i.imgur.com/g8vUPGW.png',
+    path: 'challenge12',
+    url: 'https://icodethis.com/_next/image?url=%2Fimages%2Fprojects%2Fpromote_link.png&w=1920&q=75',
+  },
 ];
