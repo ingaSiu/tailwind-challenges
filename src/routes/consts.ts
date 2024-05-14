@@ -1,5 +1,7 @@
 import Challenge1 from '../pages/challenges/Challenge1';
 import Challenge10 from '../pages/challenges/Challenge10';
+import Challenge11 from '../pages/challenges/Challenge11';
+import Challenge12 from '../pages/challenges/Challenge12';
 import Challenge2 from '../pages/challenges/Challenge2';
 import Challenge3 from '../pages/challenges/Challenge3';
 import Challenge4 from '../pages/challenges/Challenge4';
@@ -22,6 +24,8 @@ export const CHALLENGE_7 = 'challenge7';
 export const CHALLENGE_8 = 'challenge8';
 export const CHALLENGE_9 = 'challenge9';
 export const CHALLENGE_10 = 'challenge10';
+export const CHALLENGE_11 = 'challenge11';
+export const CHALLENGE_12 = 'challenge12';
 
 export const mainLayoutRoutes = {
   Layout: MainLayout,
@@ -37,5 +41,7 @@ export const mainLayoutRoutes = {
     { path: CHALLENGE_8, Component: Challenge8 },
     { path: CHALLENGE_9, Component: Challenge9 },
     { path: CHALLENGE_10, Component: Challenge10 },
+    { path: CHALLENGE_11, Component: Challenge11 },
+    { path: CHALLENGE_12, Component: Challenge12 },
   ],
 };
