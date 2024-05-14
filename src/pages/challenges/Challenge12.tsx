@@ -65,7 +65,7 @@ const Challenge12 = () => {
                 </svg>
               </button>
 
-              <button className="w-[40px] h-[40px]  bg-blue-300 text-white p-2 rounded-lg hover:scale-125 duration-200">
+              <button className="w-[40px] h-[40px]  bg-blue-300 text-white p-2 ml-2 rounded-lg hover:scale-125 duration-200">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="icon icon-tabler icon-tabler-cat"
