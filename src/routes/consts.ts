@@ -4,7 +4,7 @@ import Challenge11 from '../pages/challenges/Challenge11';
 import Challenge12 from '../pages/challenges/Challenge12';
 import Challenge2 from '../pages/challenges/Challenge2';
 import Challenge3 from '../pages/challenges/Challenge3';
-import Challenge4 from '../pages/challenges/Challenge4';
+import Challenge4 from '../pages/challenges/challenge4/Challenge4';
 import Challenge5 from '../pages/challenges/Challenge5';
 import Challenge6 from '../pages/challenges/Challenge6';
 import Challenge7 from '../pages/challenges/Challenge7';
